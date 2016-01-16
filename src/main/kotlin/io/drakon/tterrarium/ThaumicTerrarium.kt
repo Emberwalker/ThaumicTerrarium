@@ -1,6 +1,6 @@
 package io.drakon.tterrarium
 
-import io.drakon.tterrarium.lib.Const
+import io.drakon.tterrarium.common.lib.Const
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.common.Mod.EventHandler
 import net.minecraftforge.fml.common.event.FMLInitializationEvent

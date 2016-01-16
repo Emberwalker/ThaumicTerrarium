@@ -1,4 +1,4 @@
-package io.drakon.tterrarium.lib
+package io.drakon.tterrarium.common.lib
 
 /**
  * General mod constants
