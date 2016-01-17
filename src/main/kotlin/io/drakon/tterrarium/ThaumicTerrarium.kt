@@ -1,5 +1,6 @@
 package io.drakon.tterrarium
 
+import io.drakon.tterrarium.common.block.initBlocks
 import io.drakon.tterrarium.common.lib.Const
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.common.Mod.EventHandler
@@ -23,6 +24,7 @@ object ThaumicTerrarium {
     @EventHandler
     fun preinit(evt:FMLPreInitializationEvent) {
         logger.info("Preinit.")
+        initBlocks()
     }
 
     @EventHandler
